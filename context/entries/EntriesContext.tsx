@@ -1,7 +1,8 @@
+import { Entry } from '@/interfaces';
 import { createContext } from 'react';
 
-interface ContextProps {
-    entries: [] // falta tipo de dato del arreglo
+interface ContextProps { // interface que el context exporta a sus hijos 
+    entries: Entry[]
 }
 
 export const EntriesContext = createContext({} as ContextProps)
