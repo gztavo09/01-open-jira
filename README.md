@@ -1,11 +1,14 @@
 # Next.js OpenJira App
+Aplicación hecha con __REACT, TS, NEXT, DOCKER y MONGO__. 
+WebApp estilo JIRA u TRELLO, CRUD de tareas.
+
 Para correr local, se necesita la base de datos
 ```
 
 docker-compose up -d
 ```
 
-* El -d, significa __detached__
+* El -d, significa __detached
 ```
 MongoDB Url local:
 ```
