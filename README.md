@@ -11,7 +11,10 @@ MongoDB Url local:
 ```
 mongodb://localhost:27017/entriesdb
 
-
+```
+* npm install
+* npm dev
+```
 ## Configurar variables de entorno
 Renombrar el archivo __.env.template__ a __.env__
 
